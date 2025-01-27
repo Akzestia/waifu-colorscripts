@@ -1,0 +1,11 @@
+[package]
+name = "waifu-colorscripts"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+config = "0.15.6"
+dirs = "6.0.0"
+image = "0.25.5"
+rand = "0.8.5"
+viuer = "0.9.1"
