@@ -21,3 +21,4 @@ Run install script
 chmod +x install.sh
 ./install.sh
 ```
+You can delete the cloned repo's folder after successful installation.
