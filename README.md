@@ -11,13 +11,13 @@ Nothing special, just a program that uses [viuer](https://docs.rs/viuer/latest/v
 # Installation (From Source Code)
 
 ### Clone git repo
-```
+```sh
 git clone https://github.com/Akzestia/waifu-colorscripts.git
 cd waifu-colorscripts
 ```
 
 ### Run install script
-```
+```sh
 sudo chmod +x install.sh
 ./install.sh
 ```
@@ -35,17 +35,17 @@ wget -q -nv -O - https://api.github.com/repos/Akzestia/waifu-colorscripts/releas
 ```
 
 Unpack the Archive
-```
+```sh
 tar -xvzf waifu-colorscripts-x.x.x.tar.gz
 ```
 
 Navigate to the Extracted Directory
-```
+```sh
 cd waifu-colorscripts-x.x.x
 ```
 
 Run setup script
-```
+```sh
 sudo chmod +x setup.sh
 ./setup.sh
 ```
