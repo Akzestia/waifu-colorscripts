@@ -9,7 +9,7 @@ Small rust program for printing anime `Waifus` in your terminal.
 Nothing special, just a program that uses [viuer](https://docs.rs/viuer/latest/viuer/) to print a random waifu.
 
 > [!TIP]  
-> You can add your own images to image folder.
+> You can add your own images to image folder. <br/>
 
 > [!IMPORTANT]  
 > Recommended image size is 250x250px.
