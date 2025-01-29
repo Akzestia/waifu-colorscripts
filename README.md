@@ -18,7 +18,7 @@ cd waifu-colorscripts
 
 ### Run install script
 ```
-chmod +x install.sh
+sudo chmod +x install.sh
 ./install.sh
 ```
 
@@ -46,7 +46,7 @@ cd waifu-colorscripts-x.x.x
 
 Run setup script
 ```
-chmod +x setup.sh
+sudo chmod +x setup.sh
 ./setup.sh
 ```
 
