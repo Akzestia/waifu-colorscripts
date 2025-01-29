@@ -62,7 +62,15 @@ fi
 CONF_SOURCE="conf.toml"
 IMAGES_SOURCE="images/"
 CONF_DEST="$HOME/.local/share/waifu-colorscripts/"
+CLEAR_LOCAL_PATH="$HOME/.local/share/waifu-colorscripts/images"
 KITTY_CONF="$HOME/.config/kitty/kitty.conf"
+
+if rm -rf "$CLEAR_LOCAL_PATH"; then
+    echo "Cleared $CLEAR_LOCAL_PATH"
+else
+    echo "Error: Failed to clear $CLEAR_LOCAL_PATH" >&2
+    exit 1
+fi
 
 mkdir -p "$CONF_DEST"
 

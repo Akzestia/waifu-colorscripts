@@ -43,16 +43,17 @@ fi
 CONF_SOURCE="conf.toml"
 IMAGES_SOURCE="images/"
 CONF_DEST="$HOME/.local/share/waifu-colorscripts/"
+CLEAR_LOCAL_PATH="$HOME/.local/share/waifu-colorscripts/images"
 KITTY_CONF="$HOME/.config/kitty/kitty.conf"
 
-mkdir -p "$CONF_DEST"
-
-if cp "$CONF_SOURCE" "$CONF_DEST"; then
-    echo "Copied $CONF_SOURCE to $CONF_DEST"
+if rm -rf "$CLEAR_LOCAL_PATH"; then
+    echo "Cleared $CLEAR_LOCAL_PATH"
 else
-    echo "Error: Failed to copy $CONF_SOURCE to $CONF_DEST" >&2
+    echo "Error: Failed to clear $CLEAR_LOCAL_PATH" >&2
     exit 1
 fi
+
+mkdir -p "$CONF_DEST"
 
 if cp -r "$IMAGES_SOURCE" "$CONF_DEST"; then
     echo "Copied $IMAGES_SOURCE to $CONF_DEST"
