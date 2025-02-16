@@ -1,5 +1,7 @@
 # Waifu Colorscripts
 
+[🇺🇸 English](README.md) | [🇯🇵 日本語](README_jap.md)
+
 Small rust program for printing anime `Waifus` in your terminal.
 
 <img src="assets/Preview.jpg"/>
