@@ -1,5 +1,7 @@
 # Waifu Colorscripts
 
+[🇺🇸 English](README.md) | [🇯🇵 日本語](README_jap.md)
+
 ターミナルでアニメの「Waifus」を印刷するための小さな Rust プログラムです。
 
 <img src="assets/Preview.jpg"/>
