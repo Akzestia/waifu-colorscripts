@@ -6,6 +6,8 @@
 
 <img src="assets/Preview.jpg"/>
 
+[![Github All Releases](https://img.shields.io/github/downloads/Akzestia/waifu-colorscripts/total.svg)]()
+
 # 説明
 
 特別なことは何もありません。[viuer](https://docs.rs/viuer/latest/viuer/) を使用してランダムな waifu を印刷するプログラムです。
