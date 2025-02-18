@@ -5,6 +5,9 @@
 Small rust program for printing anime `Waifus` in your terminal.
 
 <img src="assets/Preview.jpg"/>
+</br>
+
+[![Github All Releases](https://img.shields.io/github/downloads/Akzestia/waifu-colorscripts/total.svg)]()
 
 # Description
 
