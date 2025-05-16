@@ -16,7 +16,7 @@ Nothing special, just a program that uses [viuer](https://docs.rs/viuer/latest/v
 > You can add your own images to image folder. <br/>
 
 > [!IMPORTANT]  
-> Recommended image size is 250x250px.
+> Images won't be automatically scaled by the app
 
 # Installation (From Source Code)
 
